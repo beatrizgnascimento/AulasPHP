@@ -22,3 +22,21 @@ namespace App;
 
     </form>
 </html>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Materia</th>
+        <th>Data da prova</th>
+        <th>Data de aviso</th>
+        <th>Telefone</th>
+    </tr>
+
+</table>
+
+<?php
+
+  $banco = new Banco();
+
+?>
