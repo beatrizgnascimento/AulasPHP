@@ -1,6 +1,9 @@
 <?php
 namespace App;
 
+require 'Banco.php';
+require 'Prova.php';
+
 ?>
 
 <html>
@@ -38,5 +41,7 @@ namespace App;
 <?php
 
   $banco = new Banco();
+  $banco->listarProvas();
+  var_dump($banco);
 
 ?>
