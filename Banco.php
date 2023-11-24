@@ -4,7 +4,7 @@ namespace App;
 
 class Banco
 {
-    private $host = "34.95.178.55"; #IP
+    private $host = "localhost"; #IP
     private $usuario = "root";
     private $senha = "";
     private $banco = "provas";
